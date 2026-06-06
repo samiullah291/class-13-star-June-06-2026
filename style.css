@@ -1,0 +1,36 @@
+input{
+    width: 200px;
+    height: 50px;
+}
+input:hover{
+    background-color: aqua;
+}
+input:focus{
+    background-color: brown;
+    color: white;
+    font-size: xx-large;
+}
+button:hover{
+    background: #000;
+    color: white;
+}
+button:active{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    animation-duration: 20s;
+}    
+/* div{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-color: aqua; */
+    /* background: #fff;
+    trbl
+    border-width: 10px 20px 30px 40px;
+    border-color: #000 red yellow green;
+    border-style: dashed double solid ridge;*/S
+/* }  */
+div:hover{
+    box-shadow: 10px 10px 100px grey;
+}
