@@ -1,7 +1,18 @@
 .main{
     display: inline;
+    margin-left: auto;
+}
+h1{
+    text-align: center;
+    color: red;
+    background-color: rgb(179, 180, 235);
+}
+.ecom-card h1{
+    color: black;
+    background-color: white;
 }
 .ecom-card{
+    
     width: 250px;
     margin-bottom: 30px;
     height: 350px;
