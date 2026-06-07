@@ -3,17 +3,26 @@
 }
 .ecom-card{
     width: 250px;
-    height: 250px;
+    margin-bottom: 30px;
+    height: 350px;
     border: 4px solid red;
     text-align: center;
     display: inline-block;
     border-radius: 20px;
-    margin-bottom: 30px;
     padding-top: 6px;
     margin-left: 20px;
 }
+.ecom-card>iframe{
+    width: 100%;
+    height: 150px;
+}
 .ecom-card:hover{
     box-shadow: 5px 5px 30px grey;
+}
+.ecom-card>ul>li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 .ecom-card>img{
     height: 120px;
